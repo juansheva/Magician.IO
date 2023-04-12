@@ -9,7 +9,7 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         _enemyManager = FindObjectOfType<EnemyManager>();
-        _enemyManager.allEnemy.Add(this);
+        //_enemyManager.allEnemy.Add(this);
     }
 
     // Update is called once per frame
